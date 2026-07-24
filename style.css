@@ -86,3 +86,16 @@ footer{
     padding:20px;
     margin-top:40px;
 }
+.search-section{
+    text-align:center;
+    padding:40px 20px;
+}
+
+.search-section input{
+    width:60%;
+    max-width:600px;
+    padding:15px;
+    border-radius:10px;
+    border:2px solid #1565c0;
+    font-size:18px;
+}
