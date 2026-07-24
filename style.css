@@ -99,3 +99,14 @@ footer{
     border:2px solid #1565c0;
     font-size:18px;
 }
+.why-us{
+    background:#eaf2ff;
+    padding:60px 20px;
+    text-align:center;
+}
+
+.why-us h2{
+    color:#1565c0;
+    margin-bottom:30px;
+    font-size:32px;
+}
