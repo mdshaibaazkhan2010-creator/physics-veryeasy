@@ -104,6 +104,33 @@ footer{
     padding:60px 20px;
     text-align:center;
 }
+.stats{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:20px;
+    padding:60px 20px;
+    background:#1565c0;
+}
+
+.stat-box{
+    background:white;
+    width:220px;
+    padding:25px;
+    border-radius:12px;
+    text-align:center;
+    box-shadow:0 5px 15px rgba(0,0,0,.2);
+}
+
+.stat-box h2{
+    color:#1565c0;
+    font-size:40px;
+}
+
+.stat-box p{
+    margin-top:10px;
+    font-size:18px;
+}
 
 .why-us h2{
     color:#1565c0;
