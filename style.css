@@ -160,3 +160,14 @@ footer{
     margin-bottom:30px;
     font-size:32px;
 }
+.featured{
+    padding:60px 20px;
+    background:#ffffff;
+    text-align:center;
+}
+
+.featured h2{
+    font-size:36px;
+    color:#1565c0;
+    margin-bottom:30px;
+}
