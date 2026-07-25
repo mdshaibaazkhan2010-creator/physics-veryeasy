@@ -56,13 +56,20 @@ nav a{
 }
 
 button{
-    background:#1565c0;
+    background:#ff9800;
     color:white;
     border:none;
-    padding:15px 30px;
-    border-radius:8px;
-    font-size:18px;
+    padding:15px 35px;
+    border-radius:50px;
+    font-size:20px;
+    font-weight:bold;
     cursor:pointer;
+    transition:0.3s;
+}
+
+button:hover{
+    background:#e68900;
+    transform:scale(1.05);
 }
 
 button:hover{
@@ -79,9 +86,15 @@ button:hover{
 .card{
     background:white;
     padding:25px;
-    border-radius:12px;
-    box-shadow:0 5px 15px rgba(0,0,0,.15);
+    border-radius:15px;
+    box-shadow:0 8px 20px rgba(0,0,0,.15);
     text-align:center;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 15px 30px rgba(0,0,0,.25);
 }
 
 .card h3{
